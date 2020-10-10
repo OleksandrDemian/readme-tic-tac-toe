@@ -73,7 +73,21 @@ It plays the same way standard tic-tac-toe does! (it didn't checks the winner. I
       </tr>
     </table>
 
-### :computer: Development
+### :computer: Tech
 This project uses php to manage business logic and produce final board.
 
 Game state is saved in mysql database
+
+### Development
+What you need:
+- Tomcat (or something other that can run PHP)
+- MySql database
+
+#### First step
+Import ttt_stat.sql and ttt_board.sql into your database
+
+#### Second step
+Copy all .php files into tomcat
+
+#### Third step
+Copy readme, change all urls from infinitysasha to your server (or use infinitysasha, but in that case skip previous two steps, only copy readme to your repository).

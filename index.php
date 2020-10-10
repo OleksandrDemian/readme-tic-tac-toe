@@ -1,4 +1,6 @@
 <?php
+	$HIDDEN_VAL = 0;
+
 	function updateBoard($x, $y){
     	$conn = mysqli_connect("localhost", "infinitysasha", "", "my_infinitysasha");
     	$query = "INSERT INTO minesweeper VALUES('$x', '$y','-1', null)";
@@ -17,7 +19,6 @@
         $row = $result->fetch_assoc();
         
         if($result->num_rows < 1){
-        	echo "Va fanculo";
         	return null;
         }
         
@@ -47,9 +48,11 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" width="50" height="50">
   <?php
-  	if(readCell($x, $y) == 1){
+  	if(readCell($x, $y) == $HIDDEN_VAL){
+    	//hidden
     	echo '<circle cx="25" cy="25" r="20" stroke="yellow" stroke-width="4" fill="green" />';
     } else {
+    	//shown
     	echo '<circle cx="25" cy="25" r="20" stroke="green" stroke-width="4" fill="yellow" />';
     }
   ?>

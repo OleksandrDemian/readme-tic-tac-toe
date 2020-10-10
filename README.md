@@ -4,7 +4,7 @@
 This repository simulates a tic-tac-toe game in readme file.
 
 ### :video_game: How to play
-It plays the same way standard tic-tac-toe does!
+It plays the same way standard tic-tac-toe does! (it didn't checks the winner. It's a feature thought to make you feel like you're playing on real paper!)
 
 <table>
       <tr>

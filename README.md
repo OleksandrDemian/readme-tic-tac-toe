@@ -58,6 +58,19 @@ It plays the same way standard minesweeper does: click on cell and hope it's min
           </a>
         </td>
       </tr>
+      <tr>
+        <td>
+          --
+        </td>
+        <td>
+          <a href="http://infinitysasha.altervista.org/tic-tac-toe/index.php?action=restart">
+            Restart
+          </a>
+        </td>
+        <td>
+           --
+        </td>
+      </tr>
     </table>
 
 ### :computer: Development

@@ -60,7 +60,7 @@ It plays the same way standard tic-tac-toe does!
       </tr>
       <tr>
         <td>
-          --
+          <img src="http://infinitysasha.altervista.org/tic-tac-toe/utils.php?action=currentPlayer">
         </td>
         <td>
           <a href="http://infinitysasha.altervista.org/tic-tac-toe/index.php?action=restart">

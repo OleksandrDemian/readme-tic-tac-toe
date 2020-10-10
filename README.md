@@ -1,10 +1,10 @@
-# :bomb:Readme minesweeper
+# :bomb:Readme tic-tac-toe
 
 ### :space_invader: Game
-This repository simulates a minesweeper game in readme file.
+This repository simulates a tic-tac-toe game in readme file.
 
 ### :video_game: How to play
-It plays the same way standard minesweeper does: click on cell and hope it's mine free!
+It plays the same way standard tic-tac-toe does!
 
 <table>
       <tr>

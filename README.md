@@ -1,3 +1,11 @@
+# :bomb:Readme minesweeper
+
+### :space_invader: Game
+This repository simulates a minesweeper game in readme file.
+
+### :video_game: How to play
+It plays the same way standard minesweeper does: click on cell and hope it's mine free!
+
 <table>
   <tr>
     <td>
@@ -135,3 +143,8 @@
     </td>
   </tr>
 </table>
+
+### :computer: Development
+This project uses php to manage business logic and produce final board.
+
+Game state is saved in mysql database

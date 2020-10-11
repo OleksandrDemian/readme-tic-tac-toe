@@ -103,10 +103,10 @@
             }
         }
     	
-        header("Location: https://github.com/OleksandrDemian/readme-minesweeper");
+        header("Location: " . getReadmeUrl());
     } else if($action == "restart"){
     	restartGame();
-    	header("Location: https://github.com/OleksandrDemian/readme-minesweeper");
+    	header("Location: " . getReadmeUrl());
     }
 ?>
 

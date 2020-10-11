@@ -7,4 +7,8 @@
     	
         return mysqli_connect($HOST, $USERNAME, $PASSWORD, $DATABASE);
     }
+
+    function getReadmeUrl(){
+    	return "--";
+    }
 ?>

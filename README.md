@@ -85,10 +85,10 @@ What you need:
 - MySql database
 
 #### First step
-Import ttt_stat.sql and ttt_board.sql into your database
+Import ttt_stat.sql and ttt_board.sql into your database.
 
 #### Second step
-Copy all .php files into tomcat
+Copy all .php files into your tomcat. Remember to configure your params in **common.php**.
 
 #### Third step
 Copy readme, change all urls from infinitysasha to your server (or use infinitysasha, but in that case skip previous two steps, only copy readme to your repository).

@@ -72,7 +72,10 @@ It plays the same way standard tic-tac-toe does!
 
 
 ### :space_invader: Game
-This repository simulates a tic-tac-toe game in readme file. It didn't checks the winner. It's a feature thought to make you feel like you're playing on real paper!
+This repository simulates a tic-tac-toe game in readme file.
+
+### :fire: Features
+It doesn't check the winner. This feature will make you feel like you're playing on real paper!
 
 ### :computer: Tech
 This project uses php to manage business logic and produce final board.
